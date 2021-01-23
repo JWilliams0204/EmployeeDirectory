@@ -1,0 +1,43 @@
+.App  {
+
+    text-align: center;
+}
+
+.App-logo {
+
+    height: 40vmin;
+    pointer-events: none;
+    background-color: #0080B4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+} 
+
+#button {
+    margin-left: 2%;
+}
+
+#reset-button {
+    margin-left: 2%;
+}
+
+.thread-dark {
+    background-color: #820010;
+}
+
+.form {
+    margin-top: 32px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.input-group {
+    margin: 10px;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
