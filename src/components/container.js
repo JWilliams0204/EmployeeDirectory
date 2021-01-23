@@ -39,6 +39,12 @@ handleformSubmit = event => {
     this.setState({result: filteredResults});
 
 }
+searchEmployee = (query) => {
+    console.log(query)
+    Api.getUsers(query)
+    .then(res => this.setState({result: res.data.results}))
+    .catch(err => console.log(err))
+}
 
 clearSearch = event => {
     event.preventDefault();
@@ -46,12 +52,7 @@ clearSearch = event => {
     return clear;
 }
 
-searchEmployee = (query) => {
-    console.log(query)
-    Api.getUsers(query)
-    .then(res => this.setState({result: res.data.results}))
-    .catch(err => console.log(err))
-}
+
 
 render() {
     return (

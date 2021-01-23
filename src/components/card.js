@@ -10,7 +10,6 @@ function Card(props) {
             </th>
 
             <td>{props.firstName} {props.lastName}</td>
-            <td>{props.city}</td>
             <td>{props.email}</td>
             <td>{props.city}</td>
             <td>{props.phone}</td>
